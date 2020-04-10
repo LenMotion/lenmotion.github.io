@@ -1,6 +1,8 @@
 import axios from 'axios'
 import Vue from 'vue'
 
+const vm = new Vue()
+
 // 设置请求默认地址和首部信息
 axios.defaults.baseURL = 'http://preadmin.ylfood.com/';
 axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8';
